@@ -1,1 +1,13 @@
 /* You can add global styles to this file, and also import other style files */
+
+.border-temp {
+    border: greenyellow 1px solid;
+}
+
+.bg-green {
+    background: green;
+}
+
+.bg-red {
+    background: crimson;
+}
