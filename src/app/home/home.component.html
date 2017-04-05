@@ -1,3 +1,7 @@
 <section id="home">
-    <h1>home component</h1>
+    <div *ngFor="let content of homeContent">
+        <h1>{{content.title}}</h1>
+        <h3>{{content.heading}}</h3>
+        <p>{{content.p1}}</p>
+    </div>
 </section>

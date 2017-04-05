@@ -1,5 +1,7 @@
 <section id="about-me">
-    <h1>
-        about-me works!
-    </h1>
+    <div *ngFor="let content of aboutMeContent">
+        <h1>{{content.title}}</h1>
+        <h3>{{content.heading}}</h3>
+        <p>{{content.p1}}</p>
+    </div>
 </section>
