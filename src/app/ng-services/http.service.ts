@@ -14,8 +14,7 @@ private timer;
 getData() {
     const textUrl = '../../assets/siteContent.json';
 
-    this.timer = Observable.timer(1000, 60000);
-
+    this.timer = Observable.timer(500, 600000);
     return this.timer
       .retry(3)
       .flatMap(() => this.http.get(textUrl))
