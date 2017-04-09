@@ -6,18 +6,14 @@ import 'rxjs/add/operator/map';
 @Injectable()
 
 export class HttpService {
-private timer;
+private content;
+textUrl: string;
 
   constructor(private http: Http) {
     console.log('Data service is working!');
+     this.textUrl = '../../assets/siteContent.json';
   }
-getData() {
-    const textUrl = '../../assets/siteContent.json';
-
-    this.timer = Observable.timer(500, 600000);
-    return this.timer
-      .retry(3)
-      .flatMap(() => this.http.get(textUrl))
-      .map(res => res.json());
+getData(): Observable<any> {
+   return this.http.get(this.textUrl).map(res => res.json());
   }
 }

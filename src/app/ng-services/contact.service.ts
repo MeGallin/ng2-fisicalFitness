@@ -10,7 +10,7 @@ export class ContactService {
   private _contactUrl = 'http://fisicalfitness.co.uk/php/request.php';
  
   postEmail(newMail: Email): Observable<string>{
-    let body = `name=${newMail.name}&email=${newMail.email}`;
+    let body = `name=${newMail.name} & email=${newMail.email} & message=${newMail.messages}`;
     let headers = new Headers({ 'Content-Type': 'application/x-www-form-urlencoded' });
     let options = new RequestOptions({ headers: headers });
  
