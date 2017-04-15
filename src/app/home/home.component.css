@@ -1,3 +1,24 @@
 section#home {
-    background: url('../../assets/images/bg-home.png') no-repeat top center;
+
+}
+
+/* Background images slider show */
+.crossfade > figure {
+  backface-visibility: hidden;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-position: center center;
+  color: transparent;
+  height: 100%;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  z-index: -10;
+}
+
+.crossfade > figure:nth-child(1) {
+  background-image: url('../../assets/images/home-page-bg.png');
 }

@@ -1,43 +1,34 @@
-<nav class="navbar navbar-toggleable-md navbar-light bg-faded">
-  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
-          data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-          aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <a class="navbar-brand" routerLink="home">LOGO</a>
-  <div class="collapse navbar-collapse border-temp" id="navbarSupportedContent">
-    <ul class="navbar-nav ml-auto">
-      <!--<li class="nav-item active">
-          <a class="nav-link" routerLink="home">home</a>
-      </li>-->
-      <li class="nav-item">
-        <a class="nav-link" routerLink="/about" routerLinkActive="active">about me</a>
-      </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown"
-           routerLinkActive="active">services</a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-          <a class="dropdown-item" routerLink="/services/personal-training">Personal Training</a>
-          <a class="dropdown-item" routerLink="/services/boxfit-circuit-training">Box Fit & Circuit Training</a>
-          <a class="dropdown-item" href="#" routerLinkActive="active">Online Training</a>
-        </div>
-      </li>
-      <li ngbDropdown class="d-inline-block">
-        <button class="btn btn-outline-primary" id="dropdownBasic1" ngbDropdownToggle>Toggle dropdown</button>
-        <div class="dropdown-menu" aria-labelledby="dropdownBasic1">
-          <a class="dropdown-item" routerLink="/services/personal-training">Personal Training</a>
-          <a class="dropdown-item" routerLink="/services/boxfit-circuit-training">Box Fit & Circuit Training</a>
-          <a class="dropdown-item" href="#" routerLinkActive="active">Online Training</a>
-        </div>
-      </li>
+<header>
+  <nav class="navbar navbar-toggleable-md navbar-light">
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <a class="navbar-brand" routerLink="/home">LOGO</a>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item cl-effect-1">
+          <a class="nav-link" routerLink="/about" routerLinkActive="active">about me</a>
+        </li>
+          <li ngbDropdown class="cl-effect-1">
+          <a class="nav-link" id="dropdownBasic1" ngbDropdownToggle>services</a>
+          <div class="dropdown-menu cl-effect-1" aria-labelledby="dropdownBasic1">
+            <a class="dropdown-item" routerLink="/services/personal-training">personal training</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" routerLink="/services/boxfit-circuit-training">circuit training & box fit</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" routerLink="/services/online-training">online training coach</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" routerLink="/services/office-wellbeing">office well being</a>
+          </div>
+        </li>
+        <li class="nav-item cl-effect-1">
+          <a class="nav-link" routerLink="/contact" routerLinkActive="active">contact me</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</header>
+<hr>
 
-  <!--<li class="nav-item">
-      <a class="nav-link" routerLink="/services" routerLinkActive="active">services</a>
-  </li>-->
-  <li class="nav-item">
-    <a class="nav-link" routerLink="/contact" routerLinkActive="active">contact me</a>
-  </li>
-  </ul>
-  </div>
-
-</nav>

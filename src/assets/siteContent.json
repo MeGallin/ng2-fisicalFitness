@@ -2,27 +2,78 @@
     "home": [{
         "title": "Fisical Fitness Ltd",
         "heading": "Heading",
-        "p1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ullamcorper justo id erat bibendum vestibulum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Integer vehicula libero at quam porta rhoncus et id quam. Suspendisse consectetur blandit orci, nec rutrum lorem iaculis in. In vulputate tincidunt ultrices. Vestibulum placerat pretium scelerisque. Ut ac justo et sem dictum viverra. In elementum ut diam vitae consequat. Nam sit amet facilisis tortor, id vehicula ligula. Proin eget tempus enim. Aliquam sit amet mattis nibh, ut venenatis mi.",
-        "p2": "Nunc vitae pellentesque nunc. Aliquam massa ante, ornare ut condimentum a, elementum vel justo. Interdum et malesuada fames ac ante ipsum primis in faucibus. Phasellus non mauris ac enim tincidunt faucibus. Nullam quis eleifend felis, sed consequat risus. Sed eleifend quam ac accumsan varius. Aenean sed dui accumsan, blandit metus et, finibus ante.",
+        "p1": "If you landed here by accident or were deliberately looking to find welcome anyway.  My name is Zach and I am a  Personal Trainer based near Reading. As you can see my site is  currently under construction  and should be done in a few weeks, keep checking in to follow my progress.",
+        "p2": "Feel free to contact me by hitting the contact me button at the bottom of the page.  Feel to make a comment about the site so far or just to say hi, either way I will endeavour to get back to ASAP. ",
         "p3": "Sed eu blandit orci. Suspendisse euismod, purus sed laoreet hendrerit, augue urna placerat tellus, eu porttitor orci nulla ut ligula. Nullam ligula leo, sodales a vehicula id, tincidunt sit amet nisl. Nunc egestas nisl eget mollis pulvinar. Aliquam eleifend non nibh sit amet aliquam. Cras et elementum lacus, sed auctor est. Sed bibendum eleifend pellentesque. Vivamus rhoncus, lectus nec rutrum ullamcorper, mi neque rutrum tellus, eu lacinia orci lacus in ligula. Nam nec viverra sem. Suspendisse at viverra enim.",
         "p4": "Proin eget arcu ut erat vestibulum cursus. Morbi vitae vulputate elit. Curabitur eu lacus sit amet velit varius convallis. Quisque mi sem, lobortis ac ultrices sit amet, vestibulum et diam. In ultrices nisi in dictum porttitor. Suspendisse potenti. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tincidunt leo sed dui aliquam, at bibendum ligula sodales."
     }],
     "about": [{
         "title": "About Me",
-        "heading": "Heading 1",
-        "p1": "paragraph 1",
-        "p2": "Nunc vitae pellentesque nunc. Aliquam massa ante, ornare ut condimentum a, elementum vel justo. Interdum et malesuada fames ac ante ipsum primis in faucibus. Phasellus non mauris ac enim tincidunt faucibus. Nullam quis eleifend felis, sed consequat risus. Sed eleifend quam ac accumsan varius. Aenean sed dui accumsan, blandit metus et, finibus ante.",
-        "p3": "Sed eu blandit orci. Suspendisse euismod, purus sed laoreet hendrerit, augue urna placerat tellus, eu porttitor orci nulla ut ligula. Nullam ligula leo, sodales a vehicula id, tincidunt sit amet nisl. Nunc egestas nisl eget mollis pulvinar. Aliquam eleifend non nibh sit amet aliquam. Cras et elementum lacus, sed auctor est. Sed bibendum eleifend pellentesque. Vivamus rhoncus, lectus nec rutrum ullamcorper, mi neque rutrum tellus, eu lacinia orci lacus in ligula. Nam nec viverra sem. Suspendisse at viverra enim.",
-        "p4": "Proin eget arcu ut erat vestibulum cursus. Morbi vitae vulputate elit. Curabitur eu lacus sit amet velit varius convallis. Quisque mi sem, lobortis ac ultrices sit amet, vestibulum et diam. In ultrices nisi in dictum porttitor. Suspendisse potenti. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tincidunt leo sed dui aliquam, at bibendum ligula sodales."
+        "p1": "Fisical Fitness provides personal training, exercise classes and online training to individuals and corporate entity.This is all aimed at achieving our clients the best physical results possible.",
+        "heading": "Our Approach",
+        "p2": "Our aim is to deliver outstanding results whilst providing a client experience that is as professional and enjoyable as possible. We also want our clients to enjoy their time with us. Our goal is to make the atmosphere on the gym floor as motivating, fun and supportive as possible. Everyone feels part of the team and everyone looks out for all our clients. We believe that if our clients are truly enjoying their experience with us, they are infinitely more likely to achieve amazing results.",
+        "heading_2": "Why Choose Us",
+        "p3": "Results –   delivering client transformations of a quality and consistency unmatched in the industry Location -Experience – boasting a world-class and industry-recognised team of personal trainers and sports professionals Approach – all-inclusive approach that takes care of everything required to achieve amazing results",
+        "heading_3": "What Clients Say",
+        "p4": "“Gary Allin”",
+        "heading_4": "Team",
+        "p5": "Zacharias Frangou",
+        "p6": "Director and Owner",
+        "p7": "My passion for health and fitness, coupled with my financial background, led me to start my own fitness company and qualify as a personal trainer. My interest in fitness started with training towards and earning a black belt in Karate as a symbol of proficiency in martial arts.",
+        "p8": "I strongly believe in the necessity for an active lifestyle, encompassing a balance of all the compulsory components of fitness. ",
+        "p9": "My philosophy focuses on continual lifelong learning as I work towards enhancing the well-being of my clients by empowering them with the knowledge, skills, support, guidance and resources to assist and inspire them on their journey to a healthier life. With an extensive background in coaching, I try to create a training environment that not only motivates but also empowers individuals to continually challenge themselves in a fun and rewarding way. "
     }],
-    "services": [{
+    "personal_training": [{
         "title": "My Services",
-        "heading": "Services",
-        "p1": "paragraph 1",
-        "p2": "paragraph 2",
-        "p3": "paragraph 3",
-        "p4": "paragraph 4"
+        "heading": "Personal Training",
+        "p1": "Working with a good trainer can be invaluable. Almost every day I see people exercising with horrible form doing the same thing over and over with little to no results. All it would take is one session to show them a safer way to train, a better intensity to train at and more efficient ways of getting the job done to see big changes.",
+        "p2": "My experience has allowed me to appreciate that each client is an individual and that their fitness regime should align to their fitness goals.  With my constructive guidance and input I ensure that my clients reach their respective goals.",
+        "p3": "All new clients are assessed to determine their goals, current levels of cardiovascular strength, muscle strength, coordination and core strength. ",
+        "p4": "My focus is on helping people achieve long-term results through challenging and varied workouts that involve strength training, cardiovascular work, functional training, core training and innovative stretching techniques.",
+        "p5": "You are welcome to contact me, or speak to me on the gym floor and we can arrange a free consultation at your convenience to discuss your goals. "
     }],
+  "boxFit_circuitTraining": [{
+    "title": " My Services",
+    "heading": "Circuit Training",
+    "p1": "What is Circuit Training?",
+    "p2":"Circuit training is often mistaken by the general public as a boot camp type scenario; drill sergeants bellowing orders at their inferior recruits and exhausting each and every participant within the circuit, however this is not the case.",
+    "p3":"Circuit training has been ranked very highly in recommendation to a great workout, building muscle, burning fat etc. Although it is a brilliant social exercise experience, it is simply another advanced method of training that is needless of a personalised workout plan.",
+    "p4":"Benefits?",
+    "p5":"Cardiovascular - Regular cardiovascular activity can improve your body’s respiratory system as well as improve muscular function and strength.",
+    "p6":"Friendly Environment - One of the major benefits of circuit training is the enjoyment of exercising with friends. Circuit training is a group exercise activity, there is no reason to be shy or attend a session alone and feel excluded from the group.",
+    "p7":"Body Composition - Through the sheer determination and exerted effort throughout circuit training sessions, positive body composition adaptations will occur. Carrying out consistent weekly exercises will surely burn a certain amount of calories per session.",
+    "p8":"The classes run for 45 – 60 minutes and starts with a good warm up working on mobility and flexibility to prevent injuries. Next we will go through a mixture of fun circuit training workouts working on Upper Body, Lower Body, Core and cardiovascular Exercise. Combinations, abdominal work and lower body routines. Then we will cool down and stretch after the good session.",
+    "heading2":"Box Fit",
+    "p9":"What is BoxFit?",
+    "p10":"Box Fit is a non-physical contact boxing programme to make you mentally and physically stronger, increase fat loss, enhance your strength, and give a more athletic look. Boxing training will gradually push you past your limits giving you the confidence you need to overcome any obstacle.",
+    "p11":"This is a fun, safe and effective programme that will push you to your safe limits and leave you coming back for more. An intense fitness class for anyone aged 16 or over, with real boxing combined with fitness, paced at your ability level, within a highly motivating and supportive group of all shapes, sizes and fitness.",
+    "p12":"The classes run for 45 – 60 minutes and starts with a good warm up working on mobility and flexibility to prevent injuries. Next we will go through a mixture of 3 minute rounds consisting of boxing combinations, abdominal work and lower body routines. Then we will cool down and stretch to bring the session to a close.",
+    "p13":"BoxFit is especially recommended for those who are lacking spare time as it provides such an effective workout in the shortest space of time."
+  }],
+  "online_training":[{
+    "title":"My Services",
+    "heading":"Online Training Coach",
+    "p1":"You can train at any time that suits you, in any place that suits you. This convenience will save you a lot of time as well as avoid the awkwardness many feel when going to the gym and being surrounded by lots of intimidating, sweaty people who hog all of the equipment!",
+    "p2":"You get much more access to you me than you would as a face to face client. You get my coaching, accountability, training programs and support all week long, not just for one maybe two hours a week that we may be together in a face-to-face environment. This means we can work together on every single aspect of getting you results and seeing you smash your goals.",
+    "p3":"I will still be able to check your exercise technique (through my app) to ensure you are doing everything correctly. To make hitting your goals really simple for you, you will benefit from reminders, follow up and support for each training session, every meal and everything you should track. Great online coaching is a one stop shop to get amazing results built around your lifestyle, the time you have available and your unique body and mind.",
+    "p4":"You get all of this at a lower price than working with me face to face for just one hour a week! This saves you money while giving you the best possible guidance, service and support."
+  }],
+  "office_wellbeing":[{
+    "title":"My Services",
+    "heading": "Office Well Being",
+    "p1": "We Help You To Motivate, Energise and Connect Your Employees. Group fitness sessions at your office or outdoors at any time of the day",
+    "p2":"The Benefits of Company Fitness",
+    "p3":"Improve Productivity",
+    "p4":"Reduce Stress",
+    "p5":"Increase Employee Morale",
+    "p6":"Lower Absenteeism",
+    "p7":"Lower Absenteeism",
+    "p8":"Team Bonding",
+    "p9":"Enhance Team Bonding",
+    "p10":"employee turnover",
+    "p11":"Lower Employee Turnover"
+
+  }],
     "contact": [{
         "title": "Contact Me",
         "heading": "Heading 1",
@@ -30,25 +81,5 @@
         "p2": "",
         "p3": "",
         "p4": ""
-    }],
-
-    "slider": [{
-        "src": "./images/slider/img_1.jpg",
-        "alt": "img one"
-    }, {
-        "src": "./images/slider/img_2.jpg",
-        "alt": "img two"
-    }, {
-        "src": "./images/slider/img_3.jpg",
-        "alt": "img 3"
-    }, {
-        "src": "./images/slider/img_4.jpg",
-        "alt": "img 4"
-    }, {
-        "src": "./images/slider/img_5.jpg",
-        "alt": "img 5"
-    }, {
-        "src": "./images/slider/img_6.jpg",
-        "alt": "img 6"
     }]
 }

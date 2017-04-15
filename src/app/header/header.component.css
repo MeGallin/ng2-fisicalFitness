@@ -1,0 +1,55 @@
+/* This is required to remove dropdown arrows */
+.dropdown-toggle::after {
+  display:;
+  width: 0;
+  height: 0;
+  margin-left: 0;
+  vertical-align: inherit;
+  content: "";
+  border-top: 0 solid;
+  border-right: 0 solid transparent;
+  border-left: 0 solid transparent;
+}
+
+/* This is required to remove dropdown arrows */
+nav a {
+  font-size: 1.1em;
+}
+
+/* Effect 1: Brackets */
+.cl-effect-1 a::before,
+.cl-effect-1 a::after {
+  color: crimson;
+  padding-right: 4px;
+  display: inline-block;
+  opacity: 0;
+  -webkit-transition: -webkit-transform 0.3s, opacity 0.2s;
+  -moz-transition: -moz-transform 0.3s, opacity 0.2s;
+  transition: transform 0.3s, opacity 0.2s;
+}
+
+.cl-effect-1 a::before {
+  margin-right: 0;
+  content: '[';
+  -webkit-transform: translateX(20px);
+  -moz-transform: translateX(20px);
+  transform: translateX(20px);
+}
+
+.cl-effect-1 a::after {
+  margin-left: 4px;
+  content: ']';
+  -webkit-transform: translateX(-30px);
+  -moz-transform: translateX(-30px);
+  transform: translateX(-30px);
+}
+
+.cl-effect-1 a:hover::before,
+.cl-effect-1 a:hover::after,
+.cl-effect-1 a:focus::before,
+.cl-effect-1 a:focus::after {
+  opacity: 1;
+  -webkit-transform: translateX(0px);
+  -moz-transform: translateX(0px);
+  transform: translateX(0px);
+}

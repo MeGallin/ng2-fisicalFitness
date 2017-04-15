@@ -1,13 +1,170 @@
 /* You can add global styles to this file, and also import other style files */
-
-.border-temp {
-    border: greenyellow 1px solid;
+html {
+background: transparent;
+}
+body {
+  background: aliceblue;
 }
 
-.bg-green {
-    background: green;
+h1,h2,h3,h4,h5,h6 {
+  color: navy;
+}
+
+/*########### MEDIA QUERy ###############*/
+/* Smartphones (landscape) ----------- */
+@media only screen and (min-width : 321px) {
+
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width : 320px) {
+
+} /* END 320px */
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px)and (max-device-width : 480px) {
+
+} /* END Smartphones (portrait and landscape) ----------- */
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 360px)and (max-device-width : 640px) {
+
+} /* END Smartphones (portrait and landscape) ----------- */
+
+/* iPhone 4 ----------- */
+@media only screen and (-webkit-min-device-pixel-ratio : 1.5), only screen and (min-device-pixel-ratio : 1.5) {
+
+} /* END   iPhone 4 ----------- */
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 768px)and (max-device-width : 1024px) {
+
+}
+
+/* iPads (landscape) ----------- */
+@media only screen and (min-device-width : 768px)and (max-device-width : 1024px)and (orientation : landscape) {
+
+}
+
+/* iPads (portrait) ----------- */
+@media only screen and (min-device-width : 768px)and (max-device-width : 1024px)and (orientation : portrait) {
+
+}
+/* Desktops and laptops ----------- */
+@media only screen and (min-width : 1224px) {
+
+}
+
+/* Large screens ----------- */
+@media only screen and (min-width : 1824px) {
+
+}
+/* ###########################End media queries  #################### */
+
+/* GA Personal Mods */
+hr { /* https://css-tricks.com/examples/hrs/ */
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(220, 20, 60, 1), rgba(0, 0, 0, 0));
+}
+
+.border {
+  border: 1px solid #555;
+}
+
+.border_top {
+  border-top: 1px dotted rgba(91, 91, 91, 0.2);
+}
+
+.border_bottom {
+  border-bottom: 1px dotted rgba(91, 91, 91, 0.2);
+}
+
+.border_left {
+  border-left: 1px dotted rgba(91, 91, 91, 0.2);
+}
+
+.border_right {
+  border-right: 1px dotted rgba(91, 91, 91, 0.2);
+}
+
+.transparency {
+  background: #7f7f7f;
+  background: rgba(255, 255, 255, 0.8)
+}
+
+.border-temp {
+  border: solid 2px green;
 }
 
 .bg-red {
-    background: crimson;
+  background: rgba(131, 14, 22, 1); /* Tina hex codes */
+}
+
+.bg-grey {
+  background: grey;
+}
+
+.bg-green {
+  background: #34cb48; /* Tina hex codes */
+}
+
+.bg-yellow {
+  background: #ffff00; /* Tina hex codes */
+}
+
+.bg-black {
+  background: black;
+}
+
+.bg-blue {
+  background: #0000ff; /* Tina hex codes */
+}
+
+.bg-pink {
+  background: pink;
+}
+
+.bg-orange {
+  background: orange;
+}
+
+.bg-gold {
+  background-color: #FFEEB5;
+  /* For WebKit (Safari, Chrome, etc) */
+  background: #FFEEB5 -webkit-gradient(linear, left top, left bottom, from(#AE8913), to(#FFEEB5)) no-repeat;
+  /* Mozilla,Firefox/Gecko */
+  background: #FFEEB5 -moz-linear-gradient(top, #AE8913, #FFEEB5) no-repeat;
+  /* IE 5.5 - 7 */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#AE8913, endColorstr=#FFEEB5) no-repeat;
+  /* IE 8 */
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#AE8913, endColorstr=#AE8913)" no-repeat;
+}
+
+/*################### Tinted Backgrounds #######################*/
+
+.tint1 {
+  box-shadow: inset 10000px 0 0 rgba(255, 255, 255, 0.1);
+}
+
+.tint2 {
+  box-shadow: inset 10000px 0 0 rgba(255, 255, 255, 0.2);
+}
+
+.tint3 {
+  box-shadow: inset 10000px 0 0 rgba(255, 255, 255, 0.3);
+}
+
+.tint4 {
+  box-shadow: inset 10000px 0 0 rgba(255, 255, 255, 0.4);
+}
+.ga-filter {
+  background: rgba(255,255,255,1);
+  background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 36%, rgba(255,250,240,1) 66%, rgba(255,250,240,1) 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,255,255,1)), color-stop(36%, rgba(246,246,246,1)), color-stop(66%, rgba(255,250,240,1)), color-stop(100%, rgba(255,250,240,1)));
+  background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 36%, rgba(255,250,240,1) 66%, rgba(255,250,240,1) 100%);
+  background: -o-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 36%, rgba(255,250,240,1) 66%, rgba(255,250,240,1) 100%);
+  background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 36%, rgba(255,250,240,1) 66%, rgba(255,250,240,1) 100%);
+  background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 36%, rgba(255,250,240,1) 66%, rgba(255,250,240,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#fffaf0', GradientType=0 );
 }

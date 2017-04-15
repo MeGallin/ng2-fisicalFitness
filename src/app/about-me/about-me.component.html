@@ -1,10 +1,23 @@
 <section id="about-me">
-    <div *ngFor="let content of aboutMeContent" class="animated fadeInRight border-temp">
-        <h1>{{content.title}}</h1>
-        <h3>{{content.heading}}</h3>
-        <p>{{content.p1}}</p>
-        <p>{{content.p2}}</p>
-        <p>{{content.p3}}</p>
-        <p>{{content.p4}}</p>
-    </div>
+  <!-- This is for the background images -->
+  <div class="crossfade">
+    <figure></figure>
+    <figure></figure>
+  </div>
+  <div *ngFor="let content of aboutMeContent" class="animated fadeInRight border-temp">
+    <h2>{{content.title}}</h2>
+    <p class="lead">{{content.p1}}</p>
+    <h3>{{content.heading}}</h3>
+    <p>{{content.p2}}</p>
+    <h3>{{content.heading_2}}</h3>
+    <p> {{content.p3}} </p>
+    <h3> {{content.heading_3}} </h3>
+    <p>{{content.p4}} </p>
+    <h3>{{content.heading_4}}</h3>
+    <p> {{content.p5}} </p>
+    <p> {{content.p6}} </p>
+    <p> {{content.p7}} </p>
+    <p> {{content.p8}} </p>
+    <p> {{content.p9}} </p>
+  </div>
 </section>
