@@ -1,7 +1,6 @@
-import { Component } from '@angular/core';
-import { NgForm } from '@angular/forms';
-import { ContactService } from '../../ng-services/contact.service';
-import { Email } from '../../interfaces/email';
+import {Component} from '@angular/core';
+import {ContactService} from '../../ng-services/contact.service';
+import {Email} from '../../interfaces/email';
 
 @Component({
   selector: 'fs-footer-contact-form',
@@ -10,10 +9,13 @@ import { Email } from '../../interfaces/email';
   providers: [ContactService]
 })
 export class FooterContactFormComponent {
-  constructor(private _contactService: ContactService) { }
-  ngOnInit() { }
+  constructor(private _contactService: ContactService) {
+  }
 
-  public message: Email = { name: '', email: '', messages: '' };
+  ngOnInit() {
+  }
+
+  public message: Email = {name: '', email: '', messages: ''};
   public clearMessage;
 
   onSubmit() {
@@ -23,6 +25,7 @@ export class FooterContactFormComponent {
     );
 
   }
+
   submitButton() {
     setInterval(() => {
       this.clearMessage = 'Thank you for you enquiry...I will be in contact with you very shortly. Regards Zach.';
@@ -34,7 +37,7 @@ export class FooterContactFormComponent {
     // console.log(`msg is: {response.status}`);
 
     if (response.status == 'success') {
-      this.message = { name: '', email: '', messages: '' };
+      this.message = {name: '', email: '', messages: ''};
       alert('Thank you for your message');
     }
 

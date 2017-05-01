@@ -1,30 +1,36 @@
-<h2>{{clearMessage}}</h2>
 
-<div *ngIf="!clearMessage">
-    <form id="footerContactForm" name="footerContactForm" (ngSubmit)="onSubmit()">
+    <p>{{clearMessage}}</p>
+
+    <div *ngIf="!clearMessage">
+      <form id="footerContactForm" name="footerContactForm" (ngSubmit)="onSubmit()">
         <div class="form-group">
-            <label>Name</label>
-            <input type="text" name="name" id="name" #nameRef="ngModel" ngControl="name" class="form-control input-lg" [(ngModel)]="message.name" required>
-            <div [hidden]="nameRef.valid || nameRef.pristine" class="alert alert-danger">
-                This is a manditory field?
-            </div>
+          <label>Name</label>
+          <input type="text" name="name" id="name" #nameRef="ngModel" ngControl="name" class="form-control input-lg" [(ngModel)]="message.name" required>
+          <div [hidden]="nameRef.valid || nameRef.pristine" class="alert alert-danger">
+            This is a manditory field?
+          </div>
         </div>
 
         <div class=" form-group ">
-            <label>Email</label>
-            <input type="email " name="email" id="email" #mailRef="ngModel" class="form-control input-lg" ngControl="email" [(ngModel)]="message.email" required>
-            <div [hidden]="mailRef.valid || mailRef.pristine" class="alert alert-danger">
-                This is a manditory field?
-            </div>
+          <label>Email</label>
+          <input type="email " name="email" id="email" #mailRef="ngModel" class="form-control input-lg" ngControl="email" [(ngModel)]="message.email" required>
+          <div [hidden]="mailRef.valid || mailRef.pristine" class="alert alert-danger">
+            This is a manditory field?
+          </div>
         </div>
 
         <div class="control-group">
-            <label>Message</label>
-            <textarea name="message" id="message" #messageRef="ngModel" class="form-control" ngControl="message" [(ngModel)]="message.messages">
+          <label>Message</label>
+          <textarea name="message" id="message" #messageRef="ngModel" class="form-control" ngControl="message" [(ngModel)]="message.messages">
         </textarea>
         </div>
 
-        <button type="submit" class="btn btn-primary" [disabled]="nameRef.pristine || !nameRef.valid && mailRef.pristine || !mailRef.valid" (click)="submitButton()">Submit</button>
-        <button type="reset" class="btn btn-primary " value="clear Form">Clear form</button>
-    </form>
-</div>
+        <button type="submit" class="btn btn-outline-primary"
+                [disabled]="nameRef.pristine || !nameRef.valid && mailRef.pristine || !mailRef.valid"
+                (click)="submitButton()">Submit
+        </button>
+        <button type="reset" class="btn btn-outline-warning float-right " value="clear Form">Clear form</button>
+      </form>
+    </div>
+
+

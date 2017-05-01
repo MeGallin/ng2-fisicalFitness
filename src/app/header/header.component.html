@@ -1,34 +1,36 @@
 <header>
-  <nav class="navbar navbar-toggleable-md navbar-light">
+  <nav class="navbar navbar-toggleable-md navbar-light bg-white">
     <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
             data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
             aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <a class="navbar-brand" routerLink="/home">LOGO</a>
+    <a class="navbar-brand" routerLink="home"><h1 class="hidden-sm-down">Fisical </h1><span><img
+      src="../assets/images/logo_image.png" alt="Fisical Fitness Logo"></span>
+      <h1 class="hidden-sm-down">Fitness</h1></a>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav ml-auto">
         <li class="nav-item cl-effect-1">
-          <a class="nav-link" routerLink="/about" routerLinkActive="active">about me</a>
+          <a class="nav-link" routerLink="about" routerLinkActive="active">about me</a>
         </li>
-          <li ngbDropdown class="cl-effect-1">
+        <li ngbDropdown class="cl-effect-1">
           <a class="nav-link" id="dropdownBasic1" ngbDropdownToggle>services</a>
           <div class="dropdown-menu cl-effect-1" aria-labelledby="dropdownBasic1">
-            <a class="dropdown-item" routerLink="/services/personal-training">personal training</a>
+            <a class="dropdown-item" routerLink="services/personal-training">personal training</a>
             <div class="dropdown-divider"></div>
-            <a class="dropdown-item" routerLink="/services/boxfit-circuit-training">circuit training & box fit</a>
+            <a class="dropdown-item" routerLink="services/boxfit-circuit-training">classes</a>
             <div class="dropdown-divider"></div>
-            <a class="dropdown-item" routerLink="/services/online-training">online training coach</a>
+            <a class="dropdown-item" routerLink="services/online-training">online training coach</a>
             <div class="dropdown-divider"></div>
-            <a class="dropdown-item" routerLink="/services/office-wellbeing">office well being</a>
+            <a class="dropdown-item" routerLink="services/office-wellbeing">office well being</a>
           </div>
         </li>
         <li class="nav-item cl-effect-1">
-          <a class="nav-link" routerLink="/contact" routerLinkActive="active">contact me</a>
+          <a class="nav-link" routerLink="contact" routerLinkActive="active">contact me</a>
         </li>
       </ul>
     </div>
   </nav>
 </header>
-<hr>
+
 

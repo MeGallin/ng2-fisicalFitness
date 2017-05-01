@@ -1,6 +1,26 @@
+header {
+  margin-bottom: 170px;
+}
+nav {
+  padding: 0;
+}
+nav a {
+  font-size: 1.1em;
+}
+
+nav ul li a:hover {
+  color: crimson;
+  cursor: auto;
+}
+header h1 {
+  display: inline-block;
+  position: relative;
+  bottom: -30px;
+  padding-right: 16px;
+}
 /* This is required to remove dropdown arrows */
 .dropdown-toggle::after {
-  display:;
+  display: none;
   width: 0;
   height: 0;
   margin-left: 0;
@@ -12,9 +32,6 @@
 }
 
 /* This is required to remove dropdown arrows */
-nav a {
-  font-size: 1.1em;
-}
 
 /* Effect 1: Brackets */
 .cl-effect-1 a::before,

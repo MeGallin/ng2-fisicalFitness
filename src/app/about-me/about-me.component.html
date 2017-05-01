@@ -3,9 +3,11 @@
   <div class="crossfade">
     <figure></figure>
     <figure></figure>
+    <figure></figure>
+    <figure></figure>
   </div>
-  <div *ngFor="let content of aboutMeContent" class="animated fadeInRight border-temp">
-    <h2>{{content.title}}</h2>
+  <div *ngFor="let content of aboutMeContent" class="animated fadeInRight">
+    <h2 class="titles">{{content.title}}</h2>
     <p class="lead">{{content.p1}}</p>
     <h3>{{content.heading}}</h3>
     <p>{{content.p2}}</p>

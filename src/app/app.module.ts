@@ -20,7 +20,8 @@ import {BoxfitCircuitComponent} from './services/boxfit-circuit/boxfit-circuit.c
 import {PersonalTrainingComponent} from './services/personal-training/personal-training.component';
 import { OnlineTrainingComponent } from './services/online-training/online-training.component';
 import { OfficeWellbeingComponent } from './services/office-wellbeing/office-wellbeing.component';
-
+import { TestimonialsComponent } from './testimonials/testimonials.component';
+import { FeaturesComponent } from './features/features.component';
 
 @NgModule({
   declarations: [
@@ -37,7 +38,9 @@ import { OfficeWellbeingComponent } from './services/office-wellbeing/office-wel
     BoxfitCircuitComponent,
     PersonalTrainingComponent,
     OnlineTrainingComponent,
-    OfficeWellbeingComponent
+    OfficeWellbeingComponent,
+    TestimonialsComponent,
+    FeaturesComponent
   ],
   imports: [
     BrowserModule,

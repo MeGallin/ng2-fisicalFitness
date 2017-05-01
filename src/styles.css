@@ -1,64 +1,90 @@
 /* You can add global styles to this file, and also import other style files */
-html {
-background: transparent;
-}
-body {
-  background: aliceblue;
+/* Zach's font*/
+@import url('https://fonts.googleapis.com/css?family=Merriweather');
+
+.h1 {
+  font-family: 'Merriweather', serif;
 }
 
-h1,h2,h3,h4,h5,h6 {
+html {
+
+}
+
+body {
+  background: snow;
+  /*box-shadow: inset 10000px 0 0 rgba(51,51,51,0.21);*/
+  line-height: 1.2;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Merriweather', serif;
   color: navy;
+}
+
+.titles {
+  padding: 6px 0;
+  display: inline-block;
 }
 
 /*########### MEDIA QUERy ###############*/
 /* Smartphones (landscape) ----------- */
-@media only screen and (min-width : 321px) {
+@media only screen and (min-width: 321px) {
 
 }
 
 /* Smartphones (portrait) ----------- */
-@media only screen and (max-width : 320px) {
+@media only screen and (max-width: 320px) {
 
-} /* END 320px */
+}
 
-/* Smartphones (portrait and landscape) ----------- */
-@media only screen and (min-device-width : 320px)and (max-device-width : 480px) {
-
-} /* END Smartphones (portrait and landscape) ----------- */
+/* END 320px */
 
 /* Smartphones (portrait and landscape) ----------- */
-@media only screen and (min-device-width : 360px)and (max-device-width : 640px) {
+@media only screen and (min-device-width: 320px)and (max-device-width: 480px) {
 
-} /* END Smartphones (portrait and landscape) ----------- */
+}
+
+/* END Smartphones (portrait and landscape) ----------- */
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width: 360px)and (max-device-width: 640px) {
+
+}
+
+/* END Smartphones (portrait and landscape) ----------- */
 
 /* iPhone 4 ----------- */
-@media only screen and (-webkit-min-device-pixel-ratio : 1.5), only screen and (min-device-pixel-ratio : 1.5) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
 
-} /* END   iPhone 4 ----------- */
+}
+
+/* END   iPhone 4 ----------- */
 
 /* iPads (portrait and landscape) ----------- */
-@media only screen and (min-device-width : 768px)and (max-device-width : 1024px) {
+@media only screen and (min-device-width: 768px)and (max-device-width: 1024px) {
 
 }
 
 /* iPads (landscape) ----------- */
-@media only screen and (min-device-width : 768px)and (max-device-width : 1024px)and (orientation : landscape) {
+@media only screen and (min-device-width: 768px)and (max-device-width: 1024px)and (orientation: landscape) {
 
 }
 
 /* iPads (portrait) ----------- */
-@media only screen and (min-device-width : 768px)and (max-device-width : 1024px)and (orientation : portrait) {
+@media only screen and (min-device-width: 768px)and (max-device-width: 1024px)and (orientation: portrait) {
 
 }
+
 /* Desktops and laptops ----------- */
-@media only screen and (min-width : 1224px) {
+@media only screen and (min-width: 1224px) {
 
 }
 
 /* Large screens ----------- */
-@media only screen and (min-width : 1824px) {
+@media only screen and (min-width: 1824px) {
 
 }
+
 /* ###########################End media queries  #################### */
 
 /* GA Personal Mods */
@@ -95,6 +121,10 @@ hr { /* https://css-tricks.com/examples/hrs/ */
 
 .border-temp {
   border: solid 2px green;
+}
+
+.bg-white {
+  background: snow;
 }
 
 .bg-red {
@@ -142,6 +172,9 @@ hr { /* https://css-tricks.com/examples/hrs/ */
 }
 
 /*################### Tinted Backgrounds #######################*/
+.tint-dark1 {
+  box-shadow: inset 10000px 0 0 rgba(0, 0, 0, 0.1);
+}
 
 .tint1 {
   box-shadow: inset 10000px 0 0 rgba(255, 255, 255, 0.1);
@@ -156,15 +189,16 @@ hr { /* https://css-tricks.com/examples/hrs/ */
 }
 
 .tint4 {
-  box-shadow: inset 10000px 0 0 rgba(255, 255, 255, 0.4);
+  box-shadow: inset 10000px 0 0 rgba(255, 255, 255, 0.5);
 }
+
 .ga-filter {
-  background: rgba(255,255,255,1);
-  background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 36%, rgba(255,250,240,1) 66%, rgba(255,250,240,1) 100%);
-  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,255,255,1)), color-stop(36%, rgba(246,246,246,1)), color-stop(66%, rgba(255,250,240,1)), color-stop(100%, rgba(255,250,240,1)));
-  background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 36%, rgba(255,250,240,1) 66%, rgba(255,250,240,1) 100%);
-  background: -o-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 36%, rgba(255,250,240,1) 66%, rgba(255,250,240,1) 100%);
-  background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 36%, rgba(255,250,240,1) 66%, rgba(255,250,240,1) 100%);
-  background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 36%, rgba(255,250,240,1) 66%, rgba(255,250,240,1) 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#fffaf0', GradientType=0 );
+  background: rgba(255, 255, 255, 1);
+  background: -moz-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(246, 246, 246, 1) 36%, rgba(255, 250, 240, 1) 66%, rgba(255, 250, 240, 1) 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255, 255, 255, 1)), color-stop(36%, rgba(246, 246, 246, 1)), color-stop(66%, rgba(255, 250, 240, 1)), color-stop(100%, rgba(255, 250, 240, 1)));
+  background: -webkit-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(246, 246, 246, 1) 36%, rgba(255, 250, 240, 1) 66%, rgba(255, 250, 240, 1) 100%);
+  background: -o-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(246, 246, 246, 1) 36%, rgba(255, 250, 240, 1) 66%, rgba(255, 250, 240, 1) 100%);
+  background: -ms-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(246, 246, 246, 1) 36%, rgba(255, 250, 240, 1) 66%, rgba(255, 250, 240, 1) 100%);
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 1) 0%, rgba(246, 246, 246, 1) 36%, rgba(255, 250, 240, 1) 66%, rgba(255, 250, 240, 1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#fffaf0', GradientType=0);
 }

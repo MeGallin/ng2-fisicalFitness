@@ -10,7 +10,7 @@ import { HttpService } from '../ng-services/http.service';
 export class HomeComponent implements OnInit {
 
   public homeContent;
-  currentRate = 8;
+
 
   constructor(private service: HttpService) {
   }

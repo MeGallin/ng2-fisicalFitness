@@ -1,14 +1,27 @@
 <section id="home">
   <!-- This is for the background images -->
   <div class="crossfade">
-    <figure class="animated fadeIn"></figure>
+    <figure></figure>
+    <figure></figure>
+    <figure></figure>
+    <figure></figure>
   </div>
-  <div *ngFor="let content of homeContent" class="animated fadeInRightxxxx">
-    <h1>{{content.title}}</h1>
-    <h3>{{content.heading}}</h3>
-    <p>{{content.p1}}</p>
-    <p>{{content.p2}}</p>
-    <p>{{content.p3}}</p>
-    <p>{{content.p4}}</p>
+  <div class="row">
+    <div class="col">
+      <div *ngFor="let content of homeContent" class="animated fadeInRight">
+        <h1>{{content.title}}</h1>
+        <p>{{content.p1}}</p>
+        <p>{{content.p2}}</p>
+        <p>{{content.p3}}</p>
+      </div>
+    </div>
+
+    <div class="col">
+      <h1>Zach's Blog</h1>
+      <p>Blog content</p>
+      <p>Zach, I think that I have to blog sorted. Will discuss in the next few days.</p>
+      <p><a href="http://www.fisicalfitness.co.uk/blog/">Read more...</a></p>
+    </div>
+
   </div>
 </section>
