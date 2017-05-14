@@ -1,11 +1,12 @@
-{
+{   "slogan":[{
+        "slogan": "FITNESS IS NOT A DESTINATION IT IS A WAY OF LIFE"
+    }],
     "home": [{
-        "title": "Fisical Fitness Ltd",
-        "heading": "FITNESS IS NOT A DESTINATION IT IS A WAY OF LIFE",
-        "p1": "If you landed here by accident or were deliberately looking to find welcome anyway.  My name is Zach and I am a  Personal Trainer based near Reading. As you can see my site is  currently under construction  and should be done in a few weeks, keep checking in to follow my progress.",
+        "title": "Fisical Fitness",
+        "p1": "Welcome to Fisical Fitness. If you landed here by accident or were deliberately looking to find me, welcome either way!  My name is Zach and I am a  Personal Trainer based near Reading. As you can see my site is  currently under construction  and should be done in a few weeks, keep checking in to follow my progress.",
         "p2": "Feel free to contact me by hitting the contact me button at the bottom of the page.  Feel to make a comment about the site so far or just to say hi, either way I will endeavour to get back to ASAP. ",
-        "p3": "Sed eu blandit orci. Suspendisse euismod, purus sed laoreet hendrerit, augue urna placerat tellus, eu porttitor orci nulla ut ligula. Nullam ligula leo, sodales a vehicula id, tincidunt sit amet nisl. Nunc egestas nisl eget mollis pulvinar. Aliquam eleifend non nibh sit amet aliquam. Cras et elementum lacus, sed auctor est. Sed bibendum eleifend pellentesque. Vivamus rhoncus, lectus nec rutrum ullamcorper, mi neque rutrum tellus, eu lacinia orci lacus in ligula. Nam nec viverra sem. Suspendisse at viverra enim.",
-        "p4": "Proin eget arcu ut erat vestibulum cursus. Morbi vitae vulputate elit. Curabitur eu lacus sit amet velit varius convallis. Quisque mi sem, lobortis ac ultrices sit amet, vestibulum et diam. In ultrices nisi in dictum porttitor. Suspendisse potenti. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tincidunt leo sed dui aliquam, at bibendum ligula sodales."
+        "p3": "",
+        "p4": ""
     }],
     "about": [{
         "title": "About Me",

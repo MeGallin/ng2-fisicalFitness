@@ -7,20 +7,24 @@
     <figure></figure>
   </div>
   <div class="row">
-    <div class="col">
+    <div class="col-sm-8">
       <div *ngFor="let content of homeContent" class="animated fadeInRight">
         <h1>{{content.title}}</h1>
-        <p>{{content.p1}}</p>
+        <div class="strength">Strength</div>
+        <p class="lead">{{content.p1}}</p>
+        <div class="fitness">Fitness</div>
         <p>{{content.p2}}</p>
-        <p>{{content.p3}}</p>
+        <div class="cardio">Cardio</div>
+        <br>
       </div>
     </div>
 
     <div class="col">
       <h1>Zach's Blog</h1>
-      <p>Blog content</p>
-      <p>Zach, I think that I have to blog sorted. Will discuss in the next few days.</p>
-      <p><a href="http://www.fisicalfitness.co.uk/blog/">Read more...</a></p>
+      <p>I am constantly updating my <a href="http://www.fisicalfitness.co.uk/blog/">blog</a> with interesting posts,
+        covering topics like exercise, nutrition training tips and advice and much more.</p>
+      <div class="flexibility">Flexibility</div>
+
     </div>
 
   </div>

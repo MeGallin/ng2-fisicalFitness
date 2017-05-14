@@ -1,5 +1,5 @@
-import { Component, OnInit } from '@angular/core';
-import { HttpService } from '../ng-services/http.service';
+import {Component, OnInit} from '@angular/core';
+import {HttpService} from '../ng-services/http.service';
 
 @Component({
   selector: 'fs-home',
@@ -11,7 +11,6 @@ export class HomeComponent implements OnInit {
 
   public homeContent;
 
-
   constructor(private service: HttpService) {
   }
 
@@ -19,9 +18,9 @@ export class HomeComponent implements OnInit {
     this.service.getData().subscribe(
       data => {
         this.homeContent = data.home;
-        //console.log(this.homeContent);
       },
       error => alert(error),
       () => console.log('')
-    )}
+    );
+  }
 }

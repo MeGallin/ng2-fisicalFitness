@@ -18,6 +18,14 @@ header h1 {
   bottom: -30px;
   padding-right: 16px;
 }
+li ngbDropdown {
+  border: red 3px solid;
+}
+.dropdown  {
+  position: relative;
+
+  cursor: pointer;
+}
 /* This is required to remove dropdown arrows */
 .dropdown-toggle::after {
   display: none;
